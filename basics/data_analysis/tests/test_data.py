@@ -1,9 +1,9 @@
 import unittest
 from unittest.mock import patch
-from data_analysis.lists import combine_and_sort_lists
-from data_analysis.tuples import create_tuple, create_tuple_from_user_input
-from data_analysis.dicts import create_dict_from_user_input
-from data_analysis.sets import combine_sets, update_set
+from lists import combine_and_sort_lists
+from tuples import create_tuple, create_tuple_from_user_input
+from dicts import create_dict_from_user_input
+from sets import combine_sets, update_set
 
 class TestLists(unittest.TestCase):
     def test_combine_and_sort_lists(self):

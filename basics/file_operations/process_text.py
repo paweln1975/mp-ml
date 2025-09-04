@@ -66,15 +66,15 @@ def count_words_in_files_and_save_to_file(input_file_name: str, output_file_name
 
 if __name__ == "__main__":
     # Example usage
-    file_name = "text_data.txt"  # Replace with your file name
+    file_name = "file_operations/text_data.txt"  # Replace with your file name
     word_to_count = "and"  # Replace with the word you want to count
     occurrences = count_word_occurrences(file_name, word_to_count)
     print(f"The word '{word_to_count}' occurs {occurrences} times in the file '{file_name}'.")
 
-    file_name = "numerical_data.txt"
+    file_name = "file_operations/numerical_data.txt"
     total_sum = sum_numbers_from_file(file_name)
     print(f"The sum of all numbers in the file '{file_name}' is {total_sum}.")
 
-    file_name = "text_data.txt"
+    file_name = "file_operations/text_data.txt"
     output_file = "word_count_output.txt"
     count_words_in_files_and_save_to_file(file_name, output_file)
